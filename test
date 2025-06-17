@@ -1,0 +1,4 @@
+touch test.txt
+git add test.txt
+git commit -m "Trigger action"
+git push
