@@ -21,10 +21,10 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build the extension
-        run: ./gradlew :Xalaflix:build
+        run: ./gradlew :Xalaflix1:build
 
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
           name: Xalaflix.cs3
-          path: Xalaflix/build/outputs/extension/*.cs3
+          path: Xalaflix1/build/outputs/extension/*.cs3
